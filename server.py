@@ -50,7 +50,7 @@ def serve_json():
     if dev in DEVICE:
         toggle_relay(dev)
         return {
-            "msg": "Relay " + request.query['relay'] + " will turn " + ( "on" if not DEVICE[dev]["STATE"] else "off" ), 
+            "msg": "Relay " + request.query['relay'] + " will turn " + ( "on" if DEVICE[dev]["STATE"] else "off" ), 
             "error": 0
             }
     else:
