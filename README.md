@@ -3,7 +3,7 @@
 Die zwei Dateien können als Vorlage für eine REST-API Kommunikation genutzt werden.
 
 Damit ist es möglich ein GPIO (z.B. Relais) über einen Webclient (index.html) und auch über einen Button zu schalten.
-Dabei zeigt sowohl das Webinterface als auch eine LED immer den aktuellen Status des Realais an.
+Dabei zeigt sowohl das Webinterface als auch eine LED immer den aktuellen Status des Relais an.
 
 ## YT-Video
 
